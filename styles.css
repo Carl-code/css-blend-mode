@@ -1,0 +1,16 @@
+/* CSS BLIND MODE */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/background1.jpg), url(./img/background2.jpg), yellow;
+    background-size: cover;
+    background-position: center;
+
+    background-blend-mode: luminosity;
+}
